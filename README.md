@@ -1,0 +1,2 @@
+# dialysis_bp_prediction
+透析中の血圧を予測するAIモデルの実装とアプリケーション
