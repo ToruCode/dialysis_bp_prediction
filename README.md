@@ -44,3 +44,6 @@ Streamlit（UI）
 python -m venv venv
 venv\Scripts\activate
 
+依存関係インストール
+pip install -r requirements.txt
+
