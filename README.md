@@ -44,7 +44,7 @@ Streamlit（UI）
 
 ### FastAPI2
 
-![FastAPI2 Demo](FastAPI2_demo.png)]
+![FastAPI2 Demo](FastAPI2_demo.png)
 
 ### Streamlit UI
 
