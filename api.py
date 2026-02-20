@@ -22,7 +22,6 @@ from pydantic import BaseModel
 
 # ===================== 設定 =====================
 SCALER_X_PATH   = Path("scaler_x.pkl")
-SCALER_Y_PATH   = Path("scaler_y.pkl")
 SCALER_T_PATH   = Path("scaler_t.pkl")
 MODEL_PATH      = Path("model.pth")
 
@@ -199,3 +198,4 @@ async def predict_file(file: UploadFile = File(...)):
         target_names=TARGET_NAMES,
         mode="single_model",
     )
+
