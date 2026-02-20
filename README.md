@@ -21,11 +21,17 @@ FastAPI + Streamlit による推論アプリケーションです。
 ## 🏗 システム構成
 
 Colab（学習）
-↓  
+
+↓
+
 artifacts保存（model.pth / scaler_x.pkl / scaler_t.pkl）
-↓  
+
+↓
+
 FastAPI（推論API）
+
 ↓  
+
 Streamlit（UI）
 
 ---
