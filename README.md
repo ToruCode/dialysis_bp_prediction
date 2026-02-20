@@ -52,6 +52,8 @@ http://127.0.0.1:8000/docs
 streamlit run app.py
 http://localhost:8501
 
+---
+
 ## 🔌 API 使用例
 
 POST /predict
