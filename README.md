@@ -38,16 +38,3 @@ Streamlit（UI）
 python -m venv venv
 venv\Scripts\activate
 
----
-
-### 2. 依存関係インストール
-
-pip install -r requirements.txt
-
----
-
-### 3. FastAPI起動
-
-uvicorn api:app --host 127.0.0.1 --port 8000
-
----
