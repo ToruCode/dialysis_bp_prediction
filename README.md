@@ -38,6 +38,14 @@ Streamlit（UI）
 
 ## 🖥 デモ画面
 
+### FastAPI 
+
+![FastAPI Demo1(FastAPI_demo.png)]
+
+### FastAPI2
+
+![Fast API Demo2(FastAPI2_demo.png)]
+
 ### Streamlit UI
 
 ![Streamlit Demo](streamlit_demo.png)
