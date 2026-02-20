@@ -102,7 +102,7 @@ app.add_middleware(
 if not SCALER_X_PATH.exists():
     raise RuntimeError(f"入力スケーラーが見つかりません: {SCALER_X_PATH}")
 scaler_x = load_scaler(SCALER_X_PATH)
-scaler_y = load_scaler(SCALER_Y_PATH) or load_scaler(SCALER_T_PATH)
+scaler_y = load_scaler(SCALER_T_PATH)
 
 if not MODEL_PATH.exists():
     raise RuntimeError(f"モデルが見つかりません: {MODEL_PATH}")
@@ -200,5 +200,6 @@ async def predict_file(file: UploadFile = File(...)):
         target_names=TARGET_NAMES,
         mode="single_model",
     )
+
 
 
