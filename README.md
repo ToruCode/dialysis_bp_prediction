@@ -38,40 +38,35 @@ Streamlit（UI）
 
 ## 🚀 ローカル実行方法
 
-1.仮想環境作成 2.依存関係インストール 3.FastAPI起動 Swagger UI 4.Streamlit起動 UI
+1.仮想環境作成
 
 ```bash
 python -m venv venv
 venv\Scripts\activate
+```
+2.依存関係インストール
 
+```bash
 pip install -r requirements.txt
+```
+3.FastAPI起動
 
+```bash
 uvicorn api:app --host 127.0.0.1 --port 8000
-http://127.0.0.1:8000/docs
+```
+Swagger UI:
 
+```bash
+http://127.0.0.1:8000/docs
+```
+4.Streamlit起動
+
+```bash
 streamlit run app.py
+```
+UI
+
+```bash
 http://localhost:8501
 ```
----
-
-## 🔌 API 使用例
-
-POST /predict
-
-{
-  "instances": [
-    {
-      "DW": 60,
-      "CTR": 50,
-      "50%TZ20ml": 0,
-      "リズミック": 0,
-      "レニベース": 0,
-      "積算除水量": 1000,
-      "総除水量": 2500,
-      "残し量": 0,
-      "下肢アップ": 0,
-      "液温": 36.5
-    }
-  ]
-}
 
