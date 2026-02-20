@@ -49,3 +49,8 @@
 - 透析中の時系列データを扱うモデル（LSTM等）への拡張
 - より多くの事例で学習を行う
 - 病態情報や薬剤情報など追加の特徴量を検討
+
+- ## Setup
+
+```bash
+pip install -r requirements.txt
