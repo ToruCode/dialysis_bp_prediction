@@ -21,9 +21,11 @@ from fastapi.responses import RedirectResponse
 from pydantic import BaseModel
 
 # ===================== 設定 =====================
-SCALER_X_PATH   = Path("scaler_x.pkl")
-SCALER_T_PATH   = Path("scaler_t.pkl")
-MODEL_PATH      = Path("model.pth")
+BASE_DIR = Path(__file__).resolve().parent
+
+SCALER_X_PATH = BASE_DIR / "artifacts" / "scaler_x.pkl"
+SCALER_T_PATH = BASE_DIR / "artifacts" / "scaler_t.pkl"
+MODEL_PATH    = BASE_DIR / "artifacts" / "model.pth"
 
 FEATURE_NAMES = [
     "DW", "CTR", "50%TZ20ml", "リズミック", "レニベース",
@@ -198,4 +200,5 @@ async def predict_file(file: UploadFile = File(...)):
         target_names=TARGET_NAMES,
         mode="single_model",
     )
+
 
