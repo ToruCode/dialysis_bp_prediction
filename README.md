@@ -39,12 +39,12 @@ Streamlit（UI）
 ## 🚀 ローカル実行方法
 
 1.仮想環境作成
+2.依存関係インストール
+3.FastAPI起動
 
 ```bash
 python -m venv venv
 venv\Scripts\activate
 
-2.依存関係インストール
 pip install -r requirements.txt
 
-3.FastAPI起動
