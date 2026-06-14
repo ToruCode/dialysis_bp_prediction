@@ -6,7 +6,7 @@ FastAPI + Streamlit による推論アプリケーションです。
 
 ---
 
-## 🎯 このプロジェクトで実装したこと
+## 🎯 実装したこと
 
 - 医療データの前処理設計（train/val/test分割）
 - StandardScalerによる入力・出力の標準化
