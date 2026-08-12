@@ -171,3 +171,9 @@ http://localhost:8501
 
 ---
 
+## 📊 プロジェクト説明資料
+
+本プロジェクトの背景、モデル設計、システム構成、評価結果、
+FastAPI / Streamlitによる実装、課題・改善案をスライドにまとめています。
+
+👉 [プロジェクト説明スライド（PowerPoint）](./dialysis_bp_prediction_overview.pptx)
