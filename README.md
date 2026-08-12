@@ -173,7 +173,8 @@ http://localhost:8501
 
 ## 📊 プロジェクト説明資料
 
-本プロジェクトの背景、モデル設計、システム構成、評価結果、
-FastAPI / Streamlitによる実装、課題・改善案をスライドにまとめています。
+透析中血圧予測AIの背景、モデル設計、評価結果、
+FastAPI / Streamlitによるシステム構成、今後の改善案をまとめています。
 
-👉 [プロジェクト説明スライド（PowerPoint）](./dialysis_bp_prediction_overview.pptx)
+- [📄 説明資料（PDF）](./dialysis_bp_prediction_overview.pdf)
+- [📊 説明資料（PowerPoint）](./dialysis_bp_prediction_overview.pptx)
